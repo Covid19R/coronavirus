@@ -1,8 +1,8 @@
 name: Data Refresh
 
-on: 
-  schedule:
-    - cron:  '0 * * * *'
+on: [push]
+  #schedule:
+  #  - cron:  '0 * * * *'
 jobs:
   build:
     name: coronavirus dataset refresh
