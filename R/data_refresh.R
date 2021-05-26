@@ -27,6 +27,7 @@ update_dataset <- function(silence = FALSE){
 
 
   coronavirus_git <- utils::read.csv("https://raw.githubusercontent.com/RamiKrispin/coronavirus/master/csv/coronavirus.csv",
+                                     fileEncoding = "UTF-8",
                                      stringsAsFactors = FALSE)
 
 
